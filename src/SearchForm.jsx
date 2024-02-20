@@ -7,6 +7,7 @@ export default function SearchForm() {
     if(!searchValue) return;
     console.log(searchValue);
   }
+  const search_api = 'nj3AOy8910vCC_37pCjpJABjzuV65fd1H0LkEbrR1Gc'
   return (
     <section>
        <h1 className='title'>unsplash images</h1>
