@@ -1,14 +1,14 @@
-import Gallery from "./Gallery";
-import SearchForm from "./SearchForm";
-import ThemeToggle from "./ThemeToggle";
+import Gallery from './Gallery';
+import SearchForm from './SearchForm';
+import ThemeToggle from './ThemeToggle';
 
-
-export default function App() {
+const App = () => {
   return (
     <main>
-       <ThemeToggle/>
-       <SearchForm/>
-       <Gallery/>
+      <ThemeToggle />
+      <SearchForm />
+      <Gallery />
     </main>
-  )
-}
+  );
+};
+export default App;
